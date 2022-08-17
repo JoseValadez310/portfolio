@@ -10,4 +10,8 @@ main {
 
 Nav {
   grid-column: 2/12;
+}
+
+section {
+  grid-column: 2/12;
 }/*# sourceMappingURL=App.css.map */

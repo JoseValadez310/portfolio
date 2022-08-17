@@ -3,14 +3,20 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-  border-bottom: 1px solid black;
+  border-bottom: 5px solid black;
 }
 
 .nav-logo {
+  font-family: "Petrona", serif;
   grid-column: 2/3;
   font-size: 5rem;
   margin-top: 2.5rem;
   margin-bottom: 0%;
+}
+.nav-logo a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .nav-links {
@@ -19,5 +25,12 @@ nav {
 }
 
 .link {
+  font-family: "Montserrat", sans-serif;
   list-style: none;
+  font-size: 1.25rem;
+}
+.link a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
 }/*# sourceMappingURL=Nav.css.map */
