@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid black;
+}
+
+.nav-logo {
+  grid-column: 2/3;
+  font-size: 5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 3rem;
+}
+
+.link {
+  list-style: none;
+}/*# sourceMappingURL=Nav.css.map */

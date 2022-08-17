@@ -1,0 +1,12 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+Nav {
+    grid-column: 2/12;
+}
