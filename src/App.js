@@ -4,7 +4,6 @@
   import './Styles/App.css';
 // Components
   import Nav from './Components/Nav.js';
-  import Hero from "./Components/Hero";
   import Home from "./Tabs/Home";
   import Works from "./Tabs/Works";
   import Resume from "./Tabs/Resume";
@@ -18,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Nav />
           <Routes>
-            <Route path = '/'        element = {[<Hero    />, < Home    /> ]}/>
+            <Route path = '/'        element = { < Home    />}/>
             <Route path = '/Works'   element = {< Works   /> }/>
             <Route path = '/Resume'  element = {< Resume  /> }/>
             <Route path = '/Story'   element = {< Story   /> }/>

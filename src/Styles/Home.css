@@ -1,14 +1,14 @@
+.home-section {
+  margin-block: 2rem;
+}
+
 section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
-}
-
-.home-section {
-  border: solid 1px black;
-  margin-block: 2rem;
+  scroll-snap-align: start;
 }
 
 .hero-wrapper {

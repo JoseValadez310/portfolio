@@ -6,6 +6,10 @@ body {
 main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  -ms-scroll-snap-type: Y mandatory;
+      scroll-snap-type: Y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 Nav {
