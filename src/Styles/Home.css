@@ -1,0 +1,97 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home-section {
+  border: solid 1px black;
+  margin-block: 2rem;
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-text {
+  font-size: 2.5rem;
+  position: relative;
+  font-family: "Major Mono Display", monospace;
+}
+
+.main-text::before,
+.main-text::after,
+.sub-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.main-text::before {
+  display: block;
+  background: white;
+  -webkit-animation: typing 6s steps(23) forwards 1s;
+          animation: typing 6s steps(23) forwards 1s;
+}
+
+.main-text::after {
+  background: black;
+  opacity: 0;
+  width: 0.125em;
+  -webkit-animation: typing 6s steps(23) forwards 1s, blink 750ms steps(23) infinite;
+          animation: typing 6s steps(23) forwards 1s, blink 750ms steps(23) infinite;
+}
+
+@-webkit-keyframes typing {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes typing {
+  to {
+    left: 100%;
+  }
+}
+@-webkit-keyframes blink {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  100% {
+    opacity: 1;
+  }
+}
+.sub-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  opacity: 0;
+  color: black;
+  transform: translateY(3rem);
+  -webkit-animation: appear 2s ease forwards 7s;
+          animation: appear 2s ease forwards 7s;
+}
+
+@-webkit-keyframes appear {
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}/*# sourceMappingURL=Home.css.map */

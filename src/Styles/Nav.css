@@ -3,11 +3,11 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-  border-bottom: 5px solid black;
 }
 
 .nav-logo {
-  font-family: "Petrona", serif;
+  font-family: Helvetica;
+  font-weight: 100;
   grid-column: 2/3;
   font-size: 5rem;
   margin-top: 2.5rem;
