@@ -1,14 +1,21 @@
 import Link from 'next/link'
+import styles from '../src/styles/Navbar.module.css'
+import Image from 'next/image';
+
 
 const Navbar = () => {
     return (  
-        <nav className="Navbar"> 
-            <h1 className="logo">Drinking Cheers</h1>
-            <Link href="/"> <a>Home</a> </Link>
-            <Link href="/About"> <a>About</a></Link>
-            <Link href="/folderPage/Name"> <a>Name</a></Link>
+        <nav className = {styles.navbar}> 
+            <Image src = '/logo.svg' width = {77} height = {77}/>
+            <Link href="/"> Home </Link>
+            <Link href="/About"> About</Link>
+            <Link href="/folderPage/Name"> Name</Link>
         </nav>
     );
 }
 
 export default Navbar;
+
+
+// import Image from 'next/image' is meant to help with loading speeds. The image will
+//only be loaded as it appears on the screen 
