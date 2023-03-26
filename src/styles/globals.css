@@ -1,0 +1,21 @@
+body {
+background: lightblue;
+color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    padding-inline: 1rem;
+}
+
+Nav {
+    display: flex;
+    flex-direction: row;
+    align-items:last baseline;
+    justify-content: center;
+}
+.logo{
+    margin: 0%;
+    padding-inline: 1rem;
+}
